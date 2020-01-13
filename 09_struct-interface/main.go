@@ -28,3 +28,13 @@ func main() {
 	fmt.Println(rectangleArea(rx1, ry1, rx2, ry2))
 	fmt.Println(circleArea(cx, cy, cr))
 }
+
+//type Circle struct {
+//	x float64
+//	y float64
+//	r float64
+//}
+
+type Circle struct {
+	x, y, r float64
+}
