@@ -20,6 +20,10 @@ func main() {
 	// 또는 필드가 정의된 순서를 알고 있을 경우 필드명을 생략할 수 있다.
 	// c := Circle{0, 0, 5}
 	fmt.Print("c:", c)
+	fmt.Println(c.x, c.y, c.r)
+	c.x = 10
+	c.y = 5
+	fmt.Println(c.x, c.y, c.r)
 }
 
 func distance(x1, y1, x2, y2 float64) float64 {
